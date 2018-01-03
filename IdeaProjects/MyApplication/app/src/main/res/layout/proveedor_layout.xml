@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:paddingBottom="10dp"
+              android:paddingTop="10dp"
+              android:paddingLeft="@dimen/activity_h_margin"
+              android:paddingRight="@dimen/activity_h_margin"
+              android:background="#0A688B"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="TextView"
+            android:textSize="24sp"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/cod_proveedor"/>
+    <TextView
+            android:text="TextView"
+            android:textSize="24sp"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/name_proveedor"/>
+    <Button
+            android:text="Facturas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/facturas_proveedor"/>
+</LinearLayout>

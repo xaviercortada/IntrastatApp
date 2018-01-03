@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector manifest:android="http://schemas.android.com/apk/res/android"
+          xmlns:manifest="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="50dp"/>
+            <solid android:color="#FFFFFF"/>
+            <size android:height="35dp"/>
+        </shape>
+    </item>
+</selector>

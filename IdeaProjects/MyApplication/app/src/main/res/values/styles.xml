@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0A688B</item>
+        <item name="colorPrimaryDark">#0A688B</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="edit_text_style">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/edit_frame</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColorHint">#788B89</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="label_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#F2F2F2</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="btton_style">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_frame</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">15</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

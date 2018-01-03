@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="#0A688B">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:srcCompat="@drawable/fingerprint"
+                android:id="@+id/imageView"
+                android:layout_weight="1"
+        />
+        <EditText
+                style="@style/label_style"
+                android:text="Intrastat"
+                android:inputType="text"
+                android:backgroundTint="@android:color/transparent"
+                android:id="@+id/editText3" android:autoText="false" android:allowUndo="false"/>
+        <EditText
+                style="@style/edit_text_style"
+                android:inputType="textPersonName"
+                android:id="@+id/editText"
+                />
+        <EditText
+                style="@style/edit_text_style"
+                android:inputType="textPassword"
+                android:id="@+id/editText2"/>
+        <Button
+                style="@style/btton_style"
+                android:id="@+id/button" android:text="Log In"/>
+    </LinearLayout>
+</RelativeLayout>
